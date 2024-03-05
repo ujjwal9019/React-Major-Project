@@ -113,7 +113,6 @@ The form component has an onSubmit attribute set to handleSubmit(login).
         </div>
     )
 }
-import { useState } from 'react'
-import { Link , Navigate } from 'react-router-dom'
+
 
 export default Login
