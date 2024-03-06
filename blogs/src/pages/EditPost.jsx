@@ -1,10 +1,7 @@
-import { useEffect } from "react";
-import React  from "react";
-import { useState } from "react";
-import { Container ,PostForm } from "../components";
-import appwriteService from '../appwrite/config'
-import { useNavigate, useParams } from "react-router-dom";
-
+import React, {useEffect, useState} from 'react'
+import {Container, PostForm} from '../components'
+import appwriteService from "../appwrite/config";
+import { useNavigate,  useParams } from 'react-router-dom';
 
 function EditPost() {
     const [post, setPosts] = useState(null)
@@ -30,6 +27,5 @@ function EditPost() {
     </div>
   ) : null
 }
-
 
 export default EditPost
