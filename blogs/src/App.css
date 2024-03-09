@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +39,16 @@
 
 .read-the-docs {
   color: #888;
+}
+
+#sign-up{
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+#card-image{
+  height: 190px;
+  width: -webkit-fill-available;
+}
+#blogs-button{
+  background-color: #f0760c;
 }
